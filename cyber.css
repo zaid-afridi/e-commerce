@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header-section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-container2 {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.header-container3 {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container3 a {
+    text-decoration: none;
+}
+
+.header-container4 {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+.header-section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #211C24;
+    color: rgb(147, 145, 145);
+    padding: 20px;
+}
+
+.header-box1 {
+    display: flex;
+    align-items: center;
+}
+
+.header-box2 {
+    display: flex;
+    align-items: center;
+}
+
+.header-box3 {
+    display: flex;
+    align-items: center;
+}
+
+.header-box4 {
+    display: flex;
+    align-items: center;
+}
+
+.header-box5 {
+    display: flex;
+    align-items: center;
+}
+
+.header-box6 {
+    display: flex;
+    align-items: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #211C24;
+}
+
+.hero-container1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.hero-container1 button {
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #211C24;
+    border: 1px solid white;
+}
+
+.hero-container2 {
+    width: 406px;
+    height: 632px;
+    justify-content: center;
+}
+
+.main-section1 {
+    display: flex;
+}
+
+.section1-container1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1-box1 {
+    display: flex;
+    align-items: center;
+}
+
+.section1-box2 {
+    display: flex;
+}
+
+.section1-box2-content1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: #EDEDED;
+    gap: 10px;
+}
+
+.section1-box2-content2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: #353535;
+    color: white;
+    gap: 10px;
+}
+
+.section1-container2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: #EDEDED;
+}
+
+.tittle4 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+}
+
+.tittle4 button {
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px;
+}
+
+.section2-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2-box1 {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 8px;
+}
+
+.section2-box2 {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 8px;
+}
+
+.section2-box3 {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 8px;
+}
+
+.section2-box4 {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 8px;
+}
+
+.section2-box5 {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 8px;
+}
+
+.section2-box6 {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 8px;
+}
+
+.main-section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    gap: 15px;
+}
+
+.section3-container1 {
+    display: flex;
+    gap: 20px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+}

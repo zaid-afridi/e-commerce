@@ -319,3 +319,84 @@
     gap: 1rem;
     grid-template-columns: repeat(4, 1fr);
 }
+
+.main-section4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.section4-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(158, 156, 156);
+    padding: 10px;
+}
+
+.section4-container1 img {
+    width: 250px;
+    height: 300px;
+}
+
+.section4-tittle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    gap: 10px;
+}
+
+.section4-tittle button {
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.section4-tittle p {
+    font-size: o.5rem;
+}
+
+.main-section5 {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    gap: 15px;
+}
+
+.section5-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDEDED;
+}
+
+.section5-card-tittle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section5-card-tittle button {
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #211C24;
+    color: white;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.section5-container2 {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.section5-card-tittle p {
+    font-size: 0.8rem;
+}

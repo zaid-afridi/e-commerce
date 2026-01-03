@@ -7,18 +7,25 @@
 
 .header-section1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 20px;
+    gap: 20px;
 }
 
 .header-container2 {
     width: 300px;
     height: 40px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.header-container2 input {
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
 }
 
 .header-container3 {
@@ -40,52 +47,66 @@
 
 .header-section2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #211C24;
     color: rgb(147, 145, 145);
-    padding: 20px;
+    padding: 10px;
+    gap: 70px;
 }
 
 .header-box1 {
     display: flex;
     align-items: center;
+    gap: 10px;
+
 }
 
 .header-box2 {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .header-box3 {
     display: flex;
     align-items: center;
+    gap: 10px;
+
 }
 
 .header-box4 {
     display: flex;
     align-items: center;
+    gap: 10px;
+
 }
 
 .header-box5 {
     display: flex;
     align-items: center;
+    gap: 10px;
+
 }
 
 .header-box6 {
     display: flex;
     align-items: center;
+    gap: 10px;
+
 }
 
 .hero-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     background-color: #211C24;
+    padding: 0 50px;
 }
 
 .hero-container1 {
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -104,8 +125,8 @@
 }
 
 .hero-container2 {
-    width: 406px;
-    height: 632px;
+    width: 400px;
+    height: 622px;
     justify-content: center;
 }
 
@@ -266,6 +287,9 @@
 .card1 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDEDED;
 }
 
 .card1-tittle {
@@ -282,6 +306,12 @@
     background-color: #211C24;
     color: white;
     border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card1-tittle p {
+    font-size: 0.8rem;
 }
 
 .section3-container2 {
